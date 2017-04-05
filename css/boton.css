@@ -1,0 +1,45 @@
+.btn-ejemplo { 
+  color: #ffffff; 
+  background-color: #8F828E; 
+  border-color: #4B4278; 
+} 
+ 
+.btn-ejemplo:hover, 
+.btn-ejemplo:focus, 
+.btn-ejemplo:active, 
+.btn-ejemplo.active, 
+.open .dropdown-toggle.btn-ejemplo { 
+  color: #ffffff; 
+  background-color: #312F33; 
+  border-color: #4B4278; 
+} 
+ 
+.btn-ejemplo:active, 
+.btn-ejemplo.active, 
+.open .dropdown-toggle.btn-ejemplo { 
+  background-image: none; 
+} 
+ 
+.btn-ejemplo.disabled, 
+.btn-ejemplo[disabled], 
+fieldset[disabled] .btn-ejemplo, 
+.btn-ejemplo.disabled:hover, 
+.btn-ejemplo[disabled]:hover, 
+fieldset[disabled] .btn-ejemplo:hover, 
+.btn-ejemplo.disabled:focus, 
+.btn-ejemplo[disabled]:focus, 
+fieldset[disabled] .btn-ejemplo:focus, 
+.btn-ejemplo.disabled:active, 
+.btn-ejemplo[disabled]:active, 
+fieldset[disabled] .btn-ejemplo:active, 
+.btn-ejemplo.disabled.active, 
+.btn-ejemplo[disabled].active, 
+fieldset[disabled] .btn-ejemplo.active { 
+  background-color: #8F828E; 
+  border-color: #4B4278; 
+} 
+ 
+.btn-ejemplo .badge { 
+  color: #8F828E; 
+  background-color: #ffffff; 
+}
